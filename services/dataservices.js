@@ -8,6 +8,5 @@ const details = new Schema({
     collegename: String
 });
 
-//127.0.0.1:27017/task-manager-api
 const College = mongoose.model('table1',details);
 module.exports =College;
